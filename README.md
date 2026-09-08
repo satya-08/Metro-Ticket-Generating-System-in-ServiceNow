@@ -956,30 +956,3 @@ Build Date: September 2026
 
 This project was developed on a ServiceNow Personal Developer Instance for educational and demonstration purposes.
 
----
-
-## Project Structure
-
-docs/screenshots/00-pdi-setup/01-pdi-instance-dashboard.png
-docs/screenshots/00-pdi-setup/02-servicenow-instance-home.png
-docs/screenshots/01-catalog/01-book-a-metro-ticket-catalog-item.png
-docs/screenshots/02-variables/01-variables-list-all-8.png
-docs/screenshots/02-variables/02-variable-enter-payment-mode.png
-docs/screenshots/02-variables/03-variable-starting-from.png
-docs/screenshots/02-variables/04-variable-going-to.png
-docs/screenshots/02-variables/05-variable-type-of-journey.png
-docs/screenshots/02-variables/06-variable-no-of-passengers.png
-docs/screenshots/02-variables/07-variable-amount-for-single-journey.png
-docs/screenshots/02-variables/08-variable-amount-including-return.png
-docs/screenshots/02-variables/09-variable-mode-of-payment.png
-docs/screenshots/03-fare-calculation/01-fare-auto-calculation-client-script.png
-docs/screenshots/04-ui-policy/01-ui-policy-show-enter-payment-mode.png
-docs/screenshots/04-ui-policy/02-ui-policy-action-enter-payment-mode.png
-docs/screenshots/05-qr-widget/01-qr-geneation-client-script.png
-docs/screenshots/05-qr-widget/02-metro-qr-widget-html.png
-docs/screenshots/07-data-storage/01-metro-station-details-table-columns.png
-docs/screenshots/08-security/01-metro-station-details-acl.png
-docs/screenshots/09-testing/01-service-portal-search-catalog.png
-docs/screenshots/09-testing/02-service-portal-booking-form.png
-docs/screenshots/09-testing/03-qr-code-modal-displayed.png
-
