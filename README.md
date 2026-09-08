@@ -672,56 +672,6 @@ When the custom table was created, ServiceNow automatically generated four defau
 *Figure 20: QR Code modal — "Your Metro Ticket QR Code" with scan instruction*
 ![Figure 20: QR Code Modal](docs/screenshots/09-testing/03-qr-code-modal-displayed.png)
 
----
-
-## 🐞 Debugging and Issue Resolution
-
-### Issue 1 — Duplicate Journey Type Choice
-
-**Problem:** The booking form shows three radio buttons for Type of Journey including a duplicate "Single Journey" entry.
-
-**Cause:** A duplicate choice entry was accidentally added to the type_of_journey variable's Question Choices.
-
-**Solution:** Navigate to the type_of_journey variable → Question Choices → delete the duplicate "Single Journey". Keep only:
-- Single journey (value = 1, Order = 100)
-- Return journey (value = 2, Order = 200)
-
-**Status:** Observed in testing — requires cleanup.
-
----
-
-### Issue 2 — QR Script Name Typo
-
-**Problem:** The onSubmit script was saved as "QR Geneation" (missing 'r' in Generation).
-
-**Cause:** Typographical error during script creation.
-
-**Impact:** None on functionality — affects display name only.
-
-**Solution:** Rename to "QR Generation" for professionalism.
-
----
-
-### Issue 3 — Fare Not Calculated for All Routes
-
-**Problem:** Jubilee Hills to Uppal Stadium route produces no fare output.
-
-**Cause:** Fare script only covers four routes from Ameerpet. Other route combinations are not handled.
-
-**Solution:** Retrieve sys_ids for Jubilee Hills and Uppal Stadium, then add the route condition block to the onChange script with appropriate fare values.
-
----
-
-### Issue 4 — QR Encodes a Placeholder URL
-
-**Problem:** The QR code encodes https://example.com/ticket?id=sysId, not a real ticket endpoint.
-
-**Cause:** Intentional demonstration placeholder — a live validation API was not in scope.
-
-**Solution (Future):** Replace dummyURL with the actual ticket record URL or a real validation API endpoint.
-
-
----
 
 ## Demo Walkthrough
 
