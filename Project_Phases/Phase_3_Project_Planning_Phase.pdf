@@ -1,0 +1,347 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 11542 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 3: PROJECT PLANNING PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 3) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 1) Tj ET
+Q
+q
+0.06 0.16 0.38 rg 45 705 505.28 95 re f
+0.02 0.45 0.75 rg 45 705 6 95 re f
+BT /F2 9 Tf 0.3 0.8 1 rg 65 776 Td (PROJECT DELIVERABLE - PHASE 3) Tj ET
+BT /F2 18 Tf 1 1 1 rg 65 752 Td (Project Planning Phase) Tj ET
+BT /F1 10 Tf 0.85 0.92 1 rg 65 732 Td (WBS, Project Timeline, Resource Matrix, Sprint Plan & Risk Management) Tj ET
+BT /F3 8.5 Tf 0.7 0.8 0.9 rg 65 716 Td (Platform: ServiceNow PDI dev423661 | Global Scope | September 2026) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 669 4 16 re f
+0.92 0.95 0.99 rg 53 667 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 672 Td (1. Work Breakdown Structure \(WBS\)) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 650 Td (The project implementation lifecycle was structured into five hierarchical work packages) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 637.85 Td (with discrete, measurable deliverables:) Tj ET
+q
+0.12 0.24 0.48 rg 45 610.7 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 616.7 Td (WBS Code) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 96 616.7 Td (Work Package) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 216 616.7 Td (Key Tasks & Deliverables) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 496 616.7 Td (Status) Tj ET
+Q
+q
+1 1 1 rg 45 592.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 592.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 598.7 Td (1.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 598.7 Td (Environment & PDI S..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 598.7 Td (Obtain PDI \(dev423661, Australia\), verify admin ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 598.7 Td (Completed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 574.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 574.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 580.7 Td (2.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 580.7 Td (Data Modeling & Mas..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 580.7 Td (Create u_metro_station_details table, configure ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 580.7 Td (Completed) Tj ET
+Q
+q
+1 1 1 rg 45 556.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 556.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 562.7 Td (3.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 562.7 Td (Catalog Item & Vari..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 562.7 Td (Create 'Book A Metro Ticket' item in Services ca..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 562.7 Td (Completed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 538.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 538.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 544.7 Td (4.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 544.7 Td (Automation & Client..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 544.7 Td (Develop onChange fare calculation script, implem..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 544.7 Td (Completed) Tj ET
+Q
+q
+1 1 1 rg 45 520.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 520.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 526.7 Td (5.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 526.7 Td (QR Widget & Submiss..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 526.7 Td (Build metro_qr_widget in Widget Editor, write on..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 526.7 Td (Completed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 502.70000000000005 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 502.70000000000005 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 508.70000000000005 Td (6.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 508.70000000000005 Td (Testing, Validation..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 508.70000000000005 Td (Execute test cases TC-01 to TC-15, verify end-to..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 508.70000000000005 Td (Completed) Tj ET
+Q
+q
+1 1 1 rg 45 484.70000000000005 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 484.70000000000005 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 490.70000000000005 Td (7.0) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 96 490.70000000000005 Td (Documentation & Art..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 490.70000000000005 Td (Compile 4 Phase Deliverables, update README.md, ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 496 490.70000000000005 Td (Completed) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 458.70000000000005 4 16 re f
+0.92 0.95 0.99 rg 53 456.70000000000005 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 461.70000000000005 Td (2. Project Timeline & Sprint Schedule) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 439.70000000000005 Td (The development was executed in 4 sequential agile sprints spanning 4 calendar weeks:) Tj ET
+q
+0.12 0.24 0.48 rg 45 412.55000000000007 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 418.55000000000007 Td (Sprint) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 106 418.55000000000007 Td (Phase) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 216 418.55000000000007 Td (Duration) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 281 418.55000000000007 Td (Key Milestones & Deliverables) Tj ET
+Q
+q
+1 1 1 rg 45 394.55000000000007 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 394.55000000000007 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 400.55000000000007 Td (Sprint 1) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 106 400.55000000000007 Td (Ideation & Setup) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 400.55000000000007 Td (Week 1) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 281 400.55000000000007 Td (PDI provisioning, empathy mapping, requirement s..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 376.55000000000007 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 376.55000000000007 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 382.55000000000007 Td (Sprint 2) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 106 382.55000000000007 Td (Data & Catalog Build) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 382.55000000000007 Td (Week 2) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 281 382.55000000000007 Td (Custom table creation, 6 stations master data en..) Tj ET
+Q
+q
+1 1 1 rg 45 358.55000000000007 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 358.55000000000007 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 364.55000000000007 Td (Sprint 3) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 106 364.55000000000007 Td (Scripting & Widgets) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 364.55000000000007 Td (Week 3) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 281 364.55000000000007 Td (Fare auto-calculation onChange script, payment U..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 340.55000000000007 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 340.55000000000007 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 346.55000000000007 Td (Sprint 4) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 106 346.55000000000007 Td (Testing & Document..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 216 346.55000000000007 Td (Week 4) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 281 346.55000000000007 Td (Test matrix execution \(TC-01 to TC-15\), bug tria..) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 314.55000000000007 4 16 re f
+0.92 0.95 0.99 rg 53 312.55000000000007 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 317.55000000000007 Td (3. Resource Allocation & Responsibility Matrix \(RACI\)) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 295.55000000000007 Td (Team roles and responsibilities mapped against project lifecycle phases:) Tj ET
+q
+0.12 0.24 0.48 rg 45 268.4000000000001 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 274.4000000000001 Td (Project Deliverable) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 196 274.4000000000001 Td (Project Lead) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 286 274.4000000000001 Td (ServiceNow Dev) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 376 274.4000000000001 Td (UI/UX Specialist) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 466 274.4000000000001 Td (QA Tester) Tj ET
+Q
+q
+1 1 1 rg 45 250.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 250.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 256.4000000000001 Td (Problem Statement & Idea..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 256.4000000000001 Td (Accountable) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 256.4000000000001 Td (Consulted) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 256.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 256.4000000000001 Td (Informed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 232.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 232.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 238.4000000000001 Td (Table & Schema Architect..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 238.4000000000001 Td (Consulted) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 238.4000000000001 Td (Responsible) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 238.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 238.4000000000001 Td (Informed) Tj ET
+Q
+q
+1 1 1 rg 45 214.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 214.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 220.4000000000001 Td (Catalog Variables & Choi..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 220.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 220.4000000000001 Td (Responsible) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 220.4000000000001 Td (Consulted) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 220.4000000000001 Td (Informed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 196.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 196.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 202.4000000000001 Td (Client Scripts & UI Poli..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 202.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 202.4000000000001 Td (Responsible) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 202.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 202.4000000000001 Td (Consulted) Tj ET
+Q
+q
+1 1 1 rg 45 178.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 178.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 184.4000000000001 Td (Service Portal Widget & ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 184.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 184.4000000000001 Td (Consulted) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 184.4000000000001 Td (Responsible) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 184.4000000000001 Td (Informed) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 160.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 160.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 166.4000000000001 Td (End-to-End Test Execution) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 166.4000000000001 Td (Accountable) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 166.4000000000001 Td (Consulted) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 166.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 166.4000000000001 Td (Responsible) Tj ET
+Q
+q
+1 1 1 rg 45 142.4000000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 142.4000000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 148.4000000000001 Td (Phase Documentation & Re..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 196 148.4000000000001 Td (Responsible) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 286 148.4000000000001 Td (Accountable) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 376 148.4000000000001 Td (Informed) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 466 148.4000000000001 Td (Informed) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 116.40000000000009 4 16 re f
+0.92 0.95 0.99 rg 53 114.40000000000009 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 119.40000000000009 Td (4. Risk Assessment & Mitigation Plan) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 97.40000000000009 Td (A proactive risk matrix was maintained to identify, score, and mitigate technical and) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 85.25000000000009 Td (operational hazards:) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 3704 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 3: PROJECT PLANNING PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 3) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 2) Tj ET
+Q
+q
+0.12 0.24 0.48 rg 45 780 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 786 Td (Risk Item) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 191 786 Td (Likelihood) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 246 786 Td (Impact) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 291 786 Td (Mitigation Strategy Adopted) Tj ET
+Q
+q
+1 1 1 rg 45 762 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 762 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 768 Td (PDI Hibernation / Insta..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 768 Td (High) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 246 768 Td (High) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 768 Td (Regular weekly logins and backup of update set..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 744 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 744 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 750 Td (External QR API Downtim..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 750 Td (Medium) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 246 750 Td (Medium) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 750 Td (Lightweight REST API call with fallback modal ..) Tj ET
+Q
+q
+1 1 1 rg 45 726 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 726 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 732 Td (Hardcoded Fare Matrix i..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 732 Td (Medium) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 246 732 Td (Low) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 732 Td (Documented route limitation; roadmap item to m..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 708 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 708 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 714 Td (Variable Choice Synchro..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 714 Td (Low) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 246 714 Td (Medium) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 714 Td (Strict validation of Choice values \(1, 2\) matc..) Tj ET
+Q
+q
+1 1 1 rg 45 690 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 690 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 696 Td (Unauthorized Record Del..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 696 Td (Low) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 246 696 Td (High) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 696 Td (Enforced ServiceNow system ACLs restricting de..) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 664 4 16 re f
+0.92 0.95 0.99 rg 53 662 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 667 Td (5. Quality Assurance & Acceptance Criteria) Tj ET
+Q
+q
+0.15 0.45 0.8 rg 51 648 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 645 Td (Accuracy Criterion: Automated fare script must compute exact fare for single and) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 633 Td (return trips across defined routes.) Tj ET
+q
+0.15 0.45 0.8 rg 51 622 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 619 Td (UX Responsiveness: Conditional payment field must render in under 200ms upon selecting) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 607 Td ('Others'.) Tj ET
+q
+0.15 0.45 0.8 rg 51 596 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 593 Td (QR Ticket Rendering: QR modal dialog must open reliably on first checkout click with) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 581 Td (clear commuter scan instructions.) Tj ET
+q
+0.15 0.45 0.8 rg 51 570 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 567 Td (Data Persistence: Submission must successfully write RITM records to sc_req_item table) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 555 Td (with all selected variable values.) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000431 00000 n 
+0000000583 00000 n 
+0000012178 00000 n 
+0000012330 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+16086
+%%EOF

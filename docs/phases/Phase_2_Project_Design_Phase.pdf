@@ -1,0 +1,385 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 11261 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 2: PROJECT DESIGN PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 2) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 1) Tj ET
+Q
+q
+0.06 0.16 0.38 rg 45 705 505.28 95 re f
+0.02 0.45 0.75 rg 45 705 6 95 re f
+BT /F2 9 Tf 0.3 0.8 1 rg 65 776 Td (PROJECT DELIVERABLE - PHASE 2) Tj ET
+BT /F2 18 Tf 1 1 1 rg 65 752 Td (Project Design Phase) Tj ET
+BT /F1 10 Tf 0.85 0.92 1 rg 65 732 Td (System Architecture, Data Flow, UI/UX Layout & Database Schema) Tj ET
+BT /F3 8.5 Tf 0.7 0.8 0.9 rg 65 716 Td (Platform: ServiceNow PDI dev423661 | Global Scope | September 2026) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 669 4 16 re f
+0.92 0.95 0.99 rg 53 667 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 672 Td (1. System Architecture Design) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 650 Td (The Metro Ticket Generating System employs a modern 3-Tier Enterprise Cloud Architecture) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 637.85 Td (hosted on the ServiceNow platform, integrating Commuter Portal, Application Logic, and) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 625.7 Td (Relational Data tiers:) Tj ET
+q
+0.15 0.45 0.8 rg 51 612.5500000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 609.5500000000001 Td (Commuter Presentation Tier: ServiceNow Service Portal \(/sp\), responsive) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 597.5500000000001 Td (Bootstrap/AngularJS catalog view, spModal dialog.) Tj ET
+q
+0.15 0.45 0.8 rg 51 586.5500000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 583.5500000000001 Td (Application Logic Tier: Service Catalog Engine, onChange Client Scripts, onSubmit QR) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 571.5500000000001 Td (generation, Catalog UI Policies.) Tj ET
+q
+0.15 0.45 0.8 rg 51 560.5500000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 557.5500000000001 Td (External Integration Tier: RESTful QR Server API \(api.qrserver.com\) generating dynamic) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 545.5500000000001 Td (150x150 scannable QR ticket matrices.) Tj ET
+q
+0.15 0.45 0.8 rg 51 534.5500000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 531.5500000000001 Td (Enterprise Data Tier: Master station table \(u_metro_station_details\), Catalog request) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 519.5500000000001 Td (tables \(sc_request, sc_req_item\).) Tj ET
+q
+0.1 0.35 0.75 rg 45 496.55000000000007 4 16 re f
+0.92 0.95 0.99 rg 53 494.55000000000007 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 499.55000000000007 Td (2. Data Flow Architecture \(DFD Level 0 & Level 1\)) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 477.55000000000007 Td (The data flow traverses through station selection, fare calculation, UI policy evaluation,) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 465.4000000000001 Td (QR generation, and order persistence:) Tj ET
+q
+0.12 0.24 0.48 rg 45 438.2500000000001 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 444.2500000000001 Td (Step) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 76 444.2500000000001 Td (Source Component) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 191 444.2500000000001 Td (Destination Component) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 316 444.2500000000001 Td (Data Transferred / Action) Tj ET
+Q
+q
+1 1 1 rg 45 420.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 420.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 426.2500000000001 Td (1) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 426.2500000000001 Td (Commuter Browser) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 426.2500000000001 Td (Service Portal \(/sp\)) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 426.2500000000001 Td (User searches and opens 'Book A Metro Tic..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 402.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 402.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 408.2500000000001 Td (2) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 408.2500000000001 Td (Service Catalog Form) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 408.2500000000001 Td (u_metro_station_deta..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 408.2500000000001 Td (Reference queries retrieve valid stations..) Tj ET
+Q
+q
+1 1 1 rg 45 384.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 384.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 390.2500000000001 Td (3) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 390.2500000000001 Td (Passenger Selector) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 390.2500000000001 Td (onChange Client Script) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 390.2500000000001 Td (Passes starting_from, going_to, type_of_j..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 366.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 366.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 372.2500000000001 Td (4) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 372.2500000000001 Td (Fare Engine) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 372.2500000000001 Td (GlideForm Amount Field) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 372.2500000000001 Td (Populates amount_for_single_journey or am..) Tj ET
+Q
+q
+1 1 1 rg 45 348.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 348.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 354.2500000000001 Td (5) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 354.2500000000001 Td (Payment Mode Selec..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 354.2500000000001 Td (Catalog UI Policy) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 354.2500000000001 Td (Evaluates mode_of_payment == 'Others'; re..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 330.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 330.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 336.2500000000001 Td (6) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 336.2500000000001 Td (Order Now Click) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 336.2500000000001 Td (onSubmit Client Script) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 336.2500000000001 Td (Intercepts submit, constructs QR URL with..) Tj ET
+Q
+q
+1 1 1 rg 45 312.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 312.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 318.2500000000001 Td (7) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 318.2500000000001 Td (onSubmit Script) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 318.2500000000001 Td (spModal / metro_qr_w..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 318.2500000000001 Td (Opens popup modal displaying dynamic QR t..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 294.2500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 294.2500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 300.2500000000001 Td (8) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 76 300.2500000000001 Td (Modal OK Click) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 191 300.2500000000001 Td (ServiceNow DB Engine) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 316 300.2500000000001 Td (Creates persistent Request \(sc_request\) &..) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 268.2500000000001 4 16 re f
+0.92 0.95 0.99 rg 53 266.2500000000001 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 271.2500000000001 Td (3. Database Schema Design \(Custom Master Table\)) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 249.2500000000001 Td (A dedicated custom table was architected in ServiceNow System Definition to maintain station) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 237.1000000000001 Td (master data, referenced by catalog items:) Tj ET
+q
+0.12 0.24 0.48 rg 45 209.9500000000001 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 215.9500000000001 Td (Column Label) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 136 215.9500000000001 Td (Column Name) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 231 215.9500000000001 Td (Data Type) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 291 215.9500000000001 Td (Length) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 336 215.9500000000001 Td (Display Field) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 401 215.9500000000001 Td (Purpose) Tj ET
+Q
+q
+1 1 1 rg 45 191.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 191.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 197.9500000000001 Td (Station Name) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 197.9500000000001 Td (u_station_name) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 197.9500000000001 Td (String) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 197.9500000000001 Td (40) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 197.9500000000001 Td (True) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 197.9500000000001 Td (Human-readable metro stati..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 173.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 173.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 179.9500000000001 Td (Sys ID) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 179.9500000000001 Td (sys_id) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 179.9500000000001 Td (GUID) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 179.9500000000001 Td (32) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 179.9500000000001 Td (False) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 179.9500000000001 Td (ServiceNow 32-character un..) Tj ET
+Q
+q
+1 1 1 rg 45 155.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 155.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 161.9500000000001 Td (Created) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 161.9500000000001 Td (sys_created_on) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 161.9500000000001 Td (Date/Time) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 161.9500000000001 Td (-) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 161.9500000000001 Td (False) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 161.9500000000001 Td (Audit timestamp recording ..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 137.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 137.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 143.9500000000001 Td (Created By) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 143.9500000000001 Td (sys_created_by) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 143.9500000000001 Td (String) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 143.9500000000001 Td (40) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 143.9500000000001 Td (False) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 143.9500000000001 Td (Username of administrator ..) Tj ET
+Q
+q
+1 1 1 rg 45 119.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 119.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 125.9500000000001 Td (Updated) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 125.9500000000001 Td (sys_updated_on) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 125.9500000000001 Td (Date/Time) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 125.9500000000001 Td (-) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 125.9500000000001 Td (False) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 125.9500000000001 Td (Audit timestamp of latest ..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 101.9500000000001 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 101.9500000000001 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 107.9500000000001 Td (Updates) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 136 107.9500000000001 Td (sys_mod_count) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 231 107.9500000000001 Td (Integer) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 291 107.9500000000001 Td (-) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 336 107.9500000000001 Td (False) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 401 107.9500000000001 Td (Incremental revision count..) Tj ET
+Q
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 6859 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 2: PROJECT DESIGN PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 2) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 2) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 782 4 16 re f
+0.92 0.95 0.99 rg 53 780 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 785 Td (4. Service Catalog Variable Specifications) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 763 Td (The booking form comprises 8 precisely typed Catalog Variables configured under Maintain) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 750.85 Td (Items:) Tj ET
+q
+0.12 0.24 0.48 rg 45 723.7 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 729.7 Td (Variable Name) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 161 729.7 Td (Display Label) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 266 729.7 Td (Type) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 341 729.7 Td (Mandatory) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 386 729.7 Td (Read Only) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 431 729.7 Td (Behavior / Rules) Tj ET
+Q
+q
+1 1 1 rg 45 705.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 705.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 711.7 Td (starting_from) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 711.7 Td (Starting From) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 711.7 Td (Reference) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 711.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 711.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 711.7 Td (References u_metro_s..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 687.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 687.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 693.7 Td (going_to) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 693.7 Td (Going to) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 693.7 Td (Reference) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 693.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 693.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 693.7 Td (References u_metro_s..) Tj ET
+Q
+q
+1 1 1 rg 45 669.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 669.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 675.7 Td (type_of_journey) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 675.7 Td (Type of journey) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 675.7 Td (Multiple Ch..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 675.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 675.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 675.7 Td (Radio buttons: Singl..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 651.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 651.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 657.7 Td (no_of_passengers) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 657.7 Td (No of Passengers) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 657.7 Td (Select Box) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 657.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 657.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 657.7 Td (Dropdown: 1, 2, 3, 4..) Tj ET
+Q
+q
+1 1 1 rg 45 633.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 633.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 639.7 Td (amount_for_single_..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 639.7 Td (Amount for single..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 639.7 Td (Single Line..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 639.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 639.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 639.7 Td (Auto-calculated fare..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 615.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 615.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 621.7 Td (amount_including_r..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 621.7 Td (Amount including ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 621.7 Td (Single Line..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 621.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 621.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 621.7 Td (Auto-calculated fare..) Tj ET
+Q
+q
+1 1 1 rg 45 597.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 597.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 603.7 Td (mode_of_payment) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 603.7 Td (Mode of Payment) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 603.7 Td (Select Box) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 603.7 Td (Yes) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 603.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 603.7 Td (Options: UPI, Card, ..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 579.7 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 579.7 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 585.7 Td (enter_payment_mode) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 585.7 Td (Enter payment mode) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 266 585.7 Td (Single Line..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 341 585.7 Td (Cond.) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 386 585.7 Td (No) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 431 585.7 Td (Revealed & mandatory..) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 553.7 4 16 re f
+0.92 0.95 0.99 rg 53 551.7 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 556.7 Td (5. UI/UX Wireframe & Widget Design) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 534.7 Td (The interface consists of two synchronized viewports designed for high clarity and error) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 522.5500000000001 Td (prevention:) Tj ET
+q
+0.15 0.45 0.8 rg 51 509.4000000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 506.4000000000001 Td (Service Catalog Form View: Standard ServiceNow 2-column responsive layout with station) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 494.4000000000001 Td (pickers, passenger chips, and locked fare fields.) Tj ET
+q
+0.15 0.45 0.8 rg 51 483.4000000000001 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 480.4000000000001 Td (Metro QR Widget \(metro_qr_widget\): AngularJS template modal window \(spModal.open\)) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 468.4000000000001 Td (displaying a centered QR code image with instructions.) Tj ET
+q
+0.1 0.35 0.75 rg 45 445.4000000000001 4 16 re f
+0.92 0.95 0.99 rg 53 443.4000000000001 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 448.4000000000001 Td (6. Security & Access Control Design) Tj ET
+Q
+q
+0.94 0.97 1 rg 45 375.4000000000001 505.28 60 re f
+0.2 0.5 0.85 RG 1 w 45 375.4000000000001 505.28 60 re S
+0.15 0.45 0.85 rg 45 375.4000000000001 4 60 re f
+BT /F2 9 Tf 0.08 0.25 0.6 rg 57 422.4000000000001 Td (Access Control Lists \(ACLs\)) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 410.4000000000001 Td (ServiceNow generated four default table-level ACL rules for u_metro_station_details) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 398.4000000000001 Td (\(read, create, write, delete\). Standard authenticated commuters possess read access to) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 386.4000000000001 Td (query station lists, while write/create/delete are restricted to System Administrator.) Tj ET
+Q
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000431 00000 n 
+0000000583 00000 n 
+0000011897 00000 n 
+0000012049 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+18960
+%%EOF

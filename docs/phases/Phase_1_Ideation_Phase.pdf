@@ -1,0 +1,281 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 7881 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 1: IDEATION PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 1) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 1) Tj ET
+Q
+q
+0.06 0.16 0.38 rg 45 705 505.28 95 re f
+0.02 0.45 0.75 rg 45 705 6 95 re f
+BT /F2 9 Tf 0.3 0.8 1 rg 65 776 Td (PROJECT DELIVERABLE - PHASE 1) Tj ET
+BT /F2 18 Tf 1 1 1 rg 65 752 Td (Ideation Phase) Tj ET
+BT /F1 10 Tf 0.85 0.92 1 rg 65 732 Td (Problem Statement, Empathy Mapping, Ideation & Feasibility Analysis) Tj ET
+BT /F3 8.5 Tf 0.7 0.8 0.9 rg 65 716 Td (Platform: ServiceNow PDI dev423661 | Global Scope | September 2026) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 669 4 16 re f
+0.92 0.95 0.99 rg 53 667 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 672 Td (1. Project Title & Executive Summary) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 650 Td (Project Title: Metro Ticket Generating System using ServiceNow \(dev423661.service-now.com\)) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 633.85 Td (The Metro Ticket Generating System is an enterprise cloud application engineered on the) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 621.7 Td (ServiceNow Personal Developer Instance \(PDI\) to digitize urban transit ticketing. By) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 609.5500000000001 Td (replacing manual ticketing counters with a responsive self-service portal, the system) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 597.4000000000001 Td (provides contactless ticket booking, automated dynamic fare calculation, and instant) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 585.2500000000001 Td (scannable QR ticket issuance, delivering a zero-queue commuter experience.) Tj ET
+q
+0.1 0.35 0.75 rg 45 560.1000000000001 4 16 re f
+0.92 0.95 0.99 rg 53 558.1000000000001 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 563.1000000000001 Td (2. Problem Statement & Background) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 541.1000000000001 Td (Urban rapid transit networks experience extreme passenger congestion at physical ticket) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 528.9500000000002 Td (token vending booths during peak commute hours. The traditional counter-based ticketing) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 516.8000000000002 Td (model presents significant operational bottlenecks and commuter friction:) Tj ET
+q
+0.15 0.45 0.8 rg 51 503.6500000000002 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 500.6500000000002 Td (Long Commuter Queues: Physical ticketing windows create 15 to 30 minute delays during) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 488.6500000000002 Td (morning and evening rush hours.) Tj ET
+q
+0.15 0.45 0.8 rg 51 477.6500000000002 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 474.6500000000002 Td (Manual Calculation Errors: Station clerks manually consult static fare charts, leading) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 462.6500000000002 Td (to calculation discrepancies and disputes.) Tj ET
+q
+0.15 0.45 0.8 rg 51 451.6500000000002 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 448.6500000000002 Td (Cash & Paper Dependency: Paper-based slips and plastic tokens result in physical) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 436.6500000000002 Td (material waste and recurring operational replenishment costs.) Tj ET
+q
+0.15 0.45 0.8 rg 51 425.6500000000002 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 422.6500000000002 Td (Absence of Self-Service: Lack of an online self-service interface forces all commuters) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 410.6500000000002 Td (through station gate choke points.) Tj ET
+q
+0.1 0.35 0.75 rg 45 387.6500000000002 4 16 re f
+0.92 0.95 0.99 rg 53 385.6500000000002 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 390.6500000000002 Td (3. Empathy Map Canvas) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 368.6500000000002 Td (An empathy mapping study was conducted across daily metropolitan transit commuters to) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 356.5000000000002 Td (capture primary behavioral dimensions:) Tj ET
+q
+0.12 0.24 0.48 rg 45 329.35000000000025 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 335.35000000000025 Td (Perspective) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 161 335.35000000000025 Td (Commuter Observation & Feedback) Tj ET
+Q
+q
+1 1 1 rg 45 311.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 311.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 317.35000000000025 Td (Says) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 317.35000000000025 Td ('The queue moves too slowly; I need a fast way to book my return trip..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 293.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 293.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 299.35000000000025 Td (Thinks) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 299.35000000000025 Td ('Why cannot I book directly from my phone or web browser and scan my ..) Tj ET
+Q
+q
+1 1 1 rg 45 275.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 275.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 281.35000000000025 Td (Does) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 281.35000000000025 Td (Rushes to counter, searches for exact currency change, stores paper r..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 257.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 257.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 263.35000000000025 Td (Feels) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 263.35000000000025 Td (Frustrated by peak-hour transit bottlenecks, anxious about missing co..) Tj ET
+Q
+q
+1 1 1 rg 45 239.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 239.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 245.35000000000025 Td (Pains) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 245.35000000000025 Td (Time lost in ticket lines, currency exchange hurdles, loss of printed..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 221.35000000000025 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 221.35000000000025 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 227.35000000000025 Td (Gains) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 161 227.35000000000025 Td (Zero-wait ticketing, instant dynamic fare computation, contactless QR..) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 195.35000000000025 4 16 re f
+0.92 0.95 0.99 rg 53 193.35000000000025 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 198.35000000000025 Td (4. Ideation & Proposed Solution) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 176.35000000000025 Td (To resolve the identified commuter pains, the team ideated a cloud-native ServiceNow digital) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 164.20000000000024 Td (ticketing application leveraging Service Catalog, client-side GlideForm scripts, conditional) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 152.05000000000024 Td (UI policies, custom data tables, and an AngularJS QR modal widget:) Tj ET
+q
+0.15 0.45 0.8 rg 51 138.90000000000023 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 135.90000000000023 Td (Service Portal Catalog Item: Commuters navigate to the self-service catalog \(/sp\) to) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 123.90000000000023 Td (access the 'Book A Metro Ticket' form.) Tj ET
+q
+0.15 0.45 0.8 rg 51 112.90000000000023 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 109.90000000000023 Td (Dynamic Station Lookups: Reference variables connect to a master data table storing) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 97.90000000000023 Td (verified metro stations \(Ameerpet, Madhapur, etc.\).) Tj ET
+q
+0.15 0.45 0.8 rg 51 86.90000000000023 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 83.90000000000023 Td (Automated Fare Scripting: Client-side onChange scripts compute journey fares) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 71.90000000000023 Td (dynamically without requiring manual server round-trips.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 5184 >>
+stream
+q
+0.08 0.18 0.36 rg 0 825 595.28 17 re f
+0.15 0.38 0.72 rg 0 822 595.28 3 re f
+BT /F2 8 Tf 1 1 1 rg 45 829 Td (SERVICENOW PROJECT DELIVERABLE | METRO TICKET GENERATING SYSTEM) Tj ET
+BT /F1 8 Tf 0.85 0.9 1 rg 450 829 Td (PHASE 1: IDEATION PHASE) Tj ET
+0.85 0.88 0.92 RG 1 w 45 38 m 550 38 l S
+BT /F1 8 Tf 0.45 0.5 0.55 rg 45 26 Td (Metro Ticket Generating System | dev423661.service-now.com | Phase 1) Tj ET
+BT /F2 8 Tf 0.45 0.5 0.55 rg 510 26 Td (Page 2) Tj ET
+Q
+q
+0.15 0.45 0.8 rg 51 794 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 791 Td (Conditional Payment Visibility: UI Policy rules show 'Enter payment mode' exclusively) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 779 Td (when 'Others' is selected as the payment method.) Tj ET
+q
+0.15 0.45 0.8 rg 51 768 3 3 re f
+Q
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 765 Td (Instant QR Modal Delivery: Custom Service Portal Widget displays a scannable digital) Tj ET
+BT /F1 9 Tf 0.2 0.22 0.25 rg 60 753 Td (QR code instantly before submitting the order.) Tj ET
+q
+0.1 0.35 0.75 rg 45 730 4 16 re f
+0.92 0.95 0.99 rg 53 728 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 733 Td (5. Existing vs. Proposed System Comparison) Tj ET
+Q
+q
+0.12 0.24 0.48 rg 45 700 505.28 20 re f
+BT /F2 8.5 Tf 1 1 1 rg 51 706 Td (Feature Dimension) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 156 706 Td (Existing Legacy Ticketing) Tj ET
+BT /F2 8.5 Tf 1 1 1 rg 351 706 Td (Proposed ServiceNow System) Tj ET
+Q
+q
+1 1 1 rg 45 682 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 682 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 688 Td (Ticketing Channel) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 688 Td (Physical station counter / token ..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 688 Td (Digital ServiceNow Service Portal \(..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 664 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 664 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 670 Td (Fare Computation) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 670 Td (Manual lookup from printed charts) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 670 Td (Automated JavaScript client-side sc..) Tj ET
+Q
+q
+1 1 1 rg 45 646 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 646 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 652 Td (Ticket Medium) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 652 Td (Printed thermal paper slip or token) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 652 Td (Digital QR code rendered in modal d..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 628 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 628 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 634 Td (Payment Support) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 634 Td (Predominantly cash or static card..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 634 Td (UPI, Debit/Credit Card, and Custom ..) Tj ET
+Q
+q
+1 1 1 rg 45 610 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 610 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 616 Td (Record Persistence) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 616 Td (Fragmented local station database) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 616 Td (Centralized sc_req_item / RITM tabl..) Tj ET
+Q
+q
+0.97 0.98 1 rg 45 592 505.28 18 re f
+0.88 0.9 0.94 RG 0.5 w 45 592 505.28 18 re S
+BT /F1 8 Tf 0.15 0.18 0.22 rg 51 598 Td (Environmental Imp..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 156 598 Td (High paper waste and discarded re..) Tj ET
+BT /F1 8 Tf 0.15 0.18 0.22 rg 351 598 Td (100% paperless, zero physical waste) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 566 4 16 re f
+0.92 0.95 0.99 rg 53 564 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 569 Td (6. Feasibility Study) Tj ET
+Q
+q
+0.94 0.97 1 rg 45 484 505.28 72 re f
+0.2 0.5 0.85 RG 1 w 45 484 505.28 72 re S
+0.15 0.45 0.85 rg 45 484 4 72 re f
+BT /F2 9 Tf 0.08 0.25 0.6 rg 57 543 Td (Technical Feasibility) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 531 Td (The project is fully viable using ServiceNow Personal Developer Instance \(Australia) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 519 Td (release\) with Service Catalog, Glide Form APIs, spModal framework, and public REST QR) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 507 Td (Server API. All required dependencies execute natively in modern web browsers without) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 495 Td (native mobile wrappers.) Tj ET
+Q
+q
+0.94 0.97 1 rg 45 404 505.28 72 re f
+0.2 0.5 0.85 RG 1 w 45 404 505.28 72 re S
+0.15 0.45 0.85 rg 45 404 4 72 re f
+BT /F2 9 Tf 0.08 0.25 0.6 rg 57 463 Td (Economic & Operational Feasibility) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 451 Td (ServiceNow developer instances are cost-free for prototyping. In an enterprise) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 439 Td (deployment, digitizing 70% of tickets saves substantial paper, hardware maintenance,) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 427 Td (and staffing costs. Commuters access the portal immediately without specialized) Tj ET
+BT /F1 8.5 Tf 0.2 0.25 0.32 rg 57 415 Td (terminal hardware.) Tj ET
+Q
+q
+0.1 0.35 0.75 rg 45 378 4 16 re f
+0.92 0.95 0.99 rg 53 376 497.28 20 re f
+BT /F2 12 Tf 0.06 0.18 0.4 rg 59 381 Td (7. Phase 1 Deliverables & Sign-Off) Tj ET
+Q
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 359 Td (Deliverables Completed: Problem Statement Document, Commuter Persona & Empathy Map, Solution) Tj ET
+BT /F1 9 Tf 0.15 0.18 0.22 rg 45 346.85 Td (Ideation Architecture, Feasibility Report.) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000431 00000 n 
+0000000583 00000 n 
+0000008516 00000 n 
+0000008668 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+13904
+%%EOF

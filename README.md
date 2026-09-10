@@ -1,4 +1,4 @@
-﻿# Metro Ticket Generating System using ServiceNow
+# Metro Ticket Generating System using ServiceNow
 
 > A digital metro ticket booking system built on a **ServiceNow Personal Developer Instance (PDI)**, enabling paperless ticket generation, automated fare calculation, and QR-based digital ticket display through the ServiceNow Service Portal.
 
@@ -10,31 +10,36 @@
 2. [Objectives](#-objectives)
 3. [Business Objectives](#-business-objectives)
 4. [Key Features](#-key-features)
-5. [System Architecture](#%EF%B8%8F-system-architecture)
-6. [End-to-End Workflow](#-end-to-end-workflow)
-7. [ServiceNow Components Used](#-servicenow-components-used)
-8. [Service Catalog — Book A Metro Ticket](#-service-catalog--book-a-metro-ticket)
-9. [Catalog Variables](#-catalog-variables)
-10. [Automated Fare Calculation](#-automated-fare-calculation)
-11. [Catalog UI Policy](#%EF%B8%8F-catalog-ui-policy)
-12. [QR-Based Digital Ticket](#-qr-based-digital-ticket)
-13. [Metro QR Widget](#-metro-qr-widget)
-14. [Flow Designer Automation](#%EF%B8%8F-flow-designer-automation)
-15. [Data Architecture](#%EF%B8%8F-data-architecture)
-16. [Field Mapping](#-field-mapping)
-17. [Security and ACL](#-security-and-acl)
-18. [Testing and Validation](#-testing-and-validation)
-19. [Demo Walkthrough](#-demo-walkthrough)
-20. [Skill Wallet Task Mapping](#-skill-wallet-task-mapping)
-21. [Technology Stack](#%EF%B8%8F-technology-stack)
-22. [Setup in a New ServiceNow PDI](#-setup-in-a-new-servicenow-pdi)
-23. [How to Test](#%EF%B8%8F-how-to-test)
-24. [Project Outcomes](#-project-outcomes)
-25. [Learning Outcomes](#-learning-outcomes)
-26. [Future Scope](#-future-scope)
-27. [Known Limitations](#%EF%B8%8F-known-limitations-and-notes)
-28. [Author](#-author)
-29. [License](#-license)
+5. [Project Lifecycle Phases & Deliverables](#-project-lifecycle-phases--deliverables)
+   - [Phase 1: Ideation Phase](#1-ideation-phase)
+   - [Phase 2: Project Design Phase](#2-project-design-phase)
+   - [Phase 3: Project Planning Phase](#3-project-planning-phase)
+   - [Phase 4: Project Development Phase](#4-project-development-phase)
+6. [System Architecture](#%EF%B8%8F-system-architecture)
+7. [End-to-End Workflow](#-end-to-end-workflow)
+8. [ServiceNow Components Used](#-servicenow-components-used)
+9. [Service Catalog — Book A Metro Ticket](#-service-catalog--book-a-metro-ticket)
+10. [Catalog Variables](#-catalog-variables)
+11. [Automated Fare Calculation](#-automated-fare-calculation)
+12. [Catalog UI Policy](#%EF%B8%8F-catalog-ui-policy)
+13. [QR-Based Digital Ticket](#-qr-based-digital-ticket)
+14. [Metro QR Widget](#-metro-qr-widget)
+15. [Flow Designer Automation](#%EF%B8%8F-flow-designer-automation)
+16. [Data Architecture](#%EF%B8%8F-data-architecture)
+17. [Field Mapping](#-field-mapping)
+18. [Security and ACL](#-security-and-acl)
+19. [Testing and Validation](#-testing-and-validation)
+20. [Demo Walkthrough](#-demo-walkthrough)
+21. [Skill Wallet Task Mapping](#-skill-wallet-task-mapping)
+22. [Technology Stack](#%EF%B8%8F-technology-stack)
+23. [Setup in a New ServiceNow PDI](#-setup-in-a-new-servicenow-pdi)
+24. [How to Test](#%EF%B8%8F-how-to-test)
+25. [Project Outcomes](#-project-outcomes)
+26. [Learning Outcomes](#-learning-outcomes)
+27. [Future Scope](#-future-scope)
+28. [Known Limitations](#%EF%B8%8F-known-limitations-and-notes)
+29. [Author](#-author)
+30. [License](#-license)
 
 ---
 
@@ -102,6 +107,60 @@ The **Metro Ticket Generating System** is a ServiceNow-based application that di
 - Flow Designer automation
 - Dynamic task creation or approval workflow
 
+---
+
+## 📋 Project Lifecycle Phases & Deliverables
+
+This project follows an end-to-end software engineering and ServiceNow implementation lifecycle divided into four structured phases. Each phase has its own comprehensive documentation and standalone downloadable PDF deliverable located in the [`Project_Phases/`](Project_Phases/) folder:
+
+| Phase | Title | Focus & Core Deliverables | Deliverables |
+|---|---|---|---|
+| **Phase 1** | **Ideation Phase** | Problem statement, commuter persona & empathy mapping, literature survey, technical / economic / operational feasibility study. | 📄 [PDF](Project_Phases/Phase_1_Ideation_Phase.pdf) • 📝 [Markdown](Project_Phases/Phase_1_Ideation_Phase.md) |
+| **Phase 2** | **Project Design Phase** | 3-tier system architecture, Level 0 & Level 1 DFDs, database schema (`u_metro_station_details`), 8 catalog variables, UI/UX wireframes, `metro_qr_widget`. | 📄 [PDF](Project_Phases/Phase_2_Project_Design_Phase.pdf) • 📝 [Markdown](Project_Phases/Phase_2_Project_Design_Phase.md) |
+| **Phase 3** | **Project Planning Phase** | Work Breakdown Structure (WBS), 4-week sprint schedule & Gantt timeline, RACI matrix, risk assessment log, quality gates & acceptance criteria. | 📄 [PDF](Project_Phases/Phase_3_Project_Planning_Phase.pdf) • 📝 [Markdown](Project_Phases/Phase_3_Project_Planning_Phase.md) |
+| **Phase 4** | **Project Development Phase** | ServiceNow PDI dev423661 setup, master station data, client-side scripts (`onChange` & `onSubmit`), Catalog UI Policy, `spModal` QR widget, 15 test cases (TC-01 to TC-15). | 📄 [PDF](Project_Phases/Phase_4_Project_Development_Phase.pdf) • 📝 [Markdown](Project_Phases/Phase_4_Project_Development_Phase.md) |
+
+---
+
+### 1. Ideation Phase
+- **Problem Formulation:** Urban transit stations suffer peak-hour ticketing bottlenecks (15-30 minute queues), human fare calculation errors, plastic token replenishment costs, and heavy paper waste.
+- **Empathy Map Canvas:** Captures commuter behaviors and pains—long queues, lack of change, fear of missing trains, and strong desire for instant mobile-friendly QR ticketing.
+- **Proposed Solution:** A cloud-native ServiceNow self-service portal (`/sp`) with the "Book A Metro Ticket" catalog item, automatic route-based pricing, and instant QR code modal delivery.
+- **Feasibility Analysis:** Validated as technically feasible on ServiceNow PDI (Australia release), economically advantageous by eliminating ticket paper costs, and operationally accessible via standard mobile/desktop browsers.
+- 📄 **Deliverables:** [Download Phase 1 PDF](Project_Phases/Phase_1_Ideation_Phase.pdf) | [Read Phase 1 Documentation](Project_Phases/Phase_1_Ideation_Phase.md)
+
+---
+
+### 2. Project Design Phase
+- **3-Tier System Architecture:** Commuter Presentation Tier (Service Portal `/sp`, Bootstrap/AngularJS), Business Automation Tier (GlideForm scripts, Catalog UI Policies, `spModal`), and Enterprise Data Tier (`u_metro_station_details`, `sc_req_item`).
+- **Data Flow Modeling:** Level 0 Context Diagram and Level 1 Detailed Flow tracing origin/destination selection, dynamic pricing execution, conditional payment display, and QR modal invocation.
+- **Database Schema:** Custom table `u_metro_station_details` with `u_station_name` as display field, pre-populated with 6 core stations (Ameerpet, Madhapur, LB Nagar, Kukatpally, Jubilee Hills, Uppal Stadium).
+- **Service Catalog Design:** 8 typed catalog variables (`starting_from`, `going_to`, `type_of_journey`, `no_of_passengers`, `amount_for_single_journey`, `amount_including_return`, `mode_of_payment`, `enter_payment_mode`).
+- **Custom Widget Design:** `metro_qr_widget` built in Widget Editor to dynamically display the REST-generated QR code image in an `spModal` popup.
+- 📄 **Deliverables:** [Download Phase 2 PDF](Project_Phases/Phase_2_Project_Design_Phase.pdf) | [Read Phase 2 Documentation](Project_Phases/Phase_2_Project_Design_Phase.md)
+
+---
+
+### 3. Project Planning Phase
+- **Work Breakdown Structure (WBS):** 7 hierarchical work packages covering Project Setup, Master Data Modeling, Catalog Development, Script Automation, Widget Integration, QA & UAT, and Documentation.
+- **Project Timeline & Sprints:** Structured across 4 agile sprints (Sprint 1: Ideation & Setup; Sprint 2: Data & Catalog; Sprint 3: Scripting & Widget; Sprint 4: Testing & Documentation).
+- **RACI Matrix:** Mapped clear accountabilities across Project Lead, ServiceNow Developer, UI/UX Specialist, and QA Tester.
+- **Risk Assessment & Mitigation:** Identified mitigations for PDI inactivity hibernation, external QR REST API latency, hardcoded route scripts, and unauthorized record deletion.
+- **Quality Gates:** Defined strict pass/fail acceptance criteria for form validation, automated pricing, read-only field security, and RITM database persistence.
+- 📄 **Deliverables:** [Download Phase 3 PDF](Project_Phases/Phase_3_Project_Planning_Phase.pdf) | [Read Phase 3 Documentation](Project_Phases/Phase_3_Project_Planning_Phase.md)
+
+---
+
+### 4. Project Development Phase
+- **PDI Environment:** Configured on ServiceNow instance `dev423661.service-now.com` running the Australia release in Global application scope.
+- **Master Data & Catalog Item:** Table `u_metro_station_details` created and populated; "Book A Metro Ticket" item published under Service Catalog > Services.
+- **Client Script Automation:**
+  - `onChange` script on `no_of_passengers` automatically calculates and sets read-only fares for single and return trips.
+  - `onSubmit` script intercepts order checkout, encodes ticket payload, calls public QR API, and opens `spModal`.
+- **Catalog UI Policy:** "Show Enter Payment Mode" reveals and mandates `enter_payment_mode` when `mode_of_payment` is set to "Others", reversing automatically.
+- **Custom Service Portal Widget:** `metro_qr_widget` built with AngularJS data binding to render dynamic QR images received from client controller input.
+- **Test Execution:** 15 comprehensive test scenarios (TC-01 through TC-15) executed covering field validation, pricing logic, UI policy toggling, QR modal rendering, and RITM record persistence.
+- 📄 **Deliverables:** [Download Phase 4 PDF](Project_Phases/Phase_4_Project_Development_Phase.pdf) | [Read Phase 4 Documentation](Project_Phases/Phase_4_Project_Development_Phase.md)
 
 ---
 
